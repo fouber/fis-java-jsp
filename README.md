@@ -23,7 +23,7 @@
 
 ## 目录说明：
 
-* WEB-INF目录下放fis提供的jsp标签配置及相关jar包文件
+* WEB-INF目录下放fis提供的jsp标签配置及相关jar包文件，包来源看 [这里](https://github.com/fouber/fis-java-resource)
 * lib目录下放基础库文件，jquery、boostrap等
 * widget目录下放组件化文件
 * fis-conf.js 文件是项目配置
