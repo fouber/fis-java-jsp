@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib
+    version="2.0"
+    xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>fis</short-name>
+    <uri>/fis</uri>
+    <tag>
+        <name>require</name>
+        <tag-class>com.baidu.fis.RequireTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>id</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>html</name>
+        <tag-class>com.baidu.fis.HtmlTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>mapDir</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>scripts</name>
+        <tag-class>com.baidu.fis.ScriptsTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>styles</name>
+        <tag-class>com.baidu.fis.StylesTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>script</name>
+        <tag-class>com.baidu.fis.ScriptTag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+</taglib>
