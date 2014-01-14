@@ -13,7 +13,6 @@
 
 <fis:require id="widget/list/list.css"/>
 <fis:require id="widget/list/list.js"/>
-<fis:require id="widget/list/list.jss"/>
 <fis:script>
     var list = require('widget/list/list.js');
     list.show('list loaded');
